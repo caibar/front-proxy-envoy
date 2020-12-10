@@ -1,4 +1,4 @@
-o learn about this sandbox and for instructions on how to run it please head over
+O learn about this sandbox and for instructions on how to run it please head over
 to the [envoy docs](https://www.envoyproxy.io/docs/envoy/latest/start/sandboxes/front_proxy.html)
 
 ## Step 1: Start all of our containers
@@ -39,6 +39,7 @@ Hello from behind Envoy (service 1)! hostname: 135a315e57e5 resolved hostname: [
 For `service2`:
 
 ```bash
+$ curl -v localhost:8080/service/2
 *   Trying 127.0.0.1:8080...
 * TCP_NODELAY set
 * Connected to localhost (127.0.0.1) port 8080 (#0)
